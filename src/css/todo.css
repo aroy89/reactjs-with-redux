@@ -1,0 +1,123 @@
+* {
+  /* border: black solid 2px; */
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.asgn3 {
+  background-color: rgb(240, 180, 89);
+  color: rgb(255, 255, 255);
+}
+
+.header {
+  font-size: 1rem;
+}
+
+.header,
+.form {
+  min-height: 4vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-input,
+.todo-button {
+  font-size: 30px;
+  border: none;
+  background: white;
+  padding: 5px 5px 5px 5px;
+  margin-bottom: 20px;
+}
+.todo-input {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.todo-input:focus {
+  background-color: rgb(227, 229, 231);
+}
+.todo-button {
+  color: rgb(255, 255, 255);
+  background: #a3a2a2;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.todo-button:hover {
+  color: #a3a2a2;
+  background: rgb(83, 79, 79);
+}
+
+.todo-container {
+  display: flex;
+  font-size: 2px;
+  justify-content: center;
+  align-items: center;
+  background-color: #a3a2a2;
+}
+
+.todo-list {
+  min-width: 90%;
+  width: auto;
+  list-style: none;
+  padding: 0px;
+  margin-top: 5px;
+}
+.todo {
+  padding: 5px 5px 5px 5px;
+  margin-bottom: 5px;
+  background: rgb(241, 236, 236);
+  color: black;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+
+.todo li {
+  flex: 1;
+}
+
+.delete-btn,
+.complete-btn {
+  background: #e4dedc;
+  color: rgb(128, 122, 122);
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.todo-item {
+  padding: 0rem 0.5rem;
+}
+
+.fa-close,
+.fa-check {
+  pointer-events: none;
+}
+
+.delete-btn:hover {
+  color: white;
+  background-color: rgb(190, 28, 28);
+}
+.complete-btn:hover {
+  color: white;
+  background-color: rgb(160, 156, 156);
+}
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
