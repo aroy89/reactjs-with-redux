@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/aroy89/reactjs-with-redux.git/static/css/main.3798f88e.chunk.css",
+    "main.js": "/aroy89/reactjs-with-redux.git/static/js/main.e1271aa1.chunk.js",
+    "main.js.map": "/aroy89/reactjs-with-redux.git/static/js/main.e1271aa1.chunk.js.map",
+    "runtime-main.js": "/aroy89/reactjs-with-redux.git/static/js/runtime-main.43da0a5a.js",
+    "runtime-main.js.map": "/aroy89/reactjs-with-redux.git/static/js/runtime-main.43da0a5a.js.map",
+    "static/js/2.8bfd064e.chunk.js": "/aroy89/reactjs-with-redux.git/static/js/2.8bfd064e.chunk.js",
+    "static/js/2.8bfd064e.chunk.js.map": "/aroy89/reactjs-with-redux.git/static/js/2.8bfd064e.chunk.js.map",
+    "index.html": "/aroy89/reactjs-with-redux.git/index.html",
+    "static/css/main.3798f88e.chunk.css.map": "/aroy89/reactjs-with-redux.git/static/css/main.3798f88e.chunk.css.map",
+    "static/js/2.8bfd064e.chunk.js.LICENSE.txt": "/aroy89/reactjs-with-redux.git/static/js/2.8bfd064e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.43da0a5a.js",
+    "static/js/2.8bfd064e.chunk.js",
+    "static/css/main.3798f88e.chunk.css",
+    "static/js/main.e1271aa1.chunk.js"
+  ]
+}
